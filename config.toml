@@ -53,10 +53,10 @@ paginate = 6
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "tutorials"
+        name = "Tutorials"
+        url = "/tutorials"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "freebies"
+        name = "Freebies"
+        url = "/freebies"
