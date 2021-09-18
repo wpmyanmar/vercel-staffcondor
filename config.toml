@@ -60,3 +60,7 @@ paginate = 6
         identifier = "freebies"
         name = "Freebies"
         url = "/freebies"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
