@@ -1,3 +1,6 @@
+---
+title: wgcf Using Cloudflare WARP with Wireguard Client on Ubuntu
+---
 # wgcf Using Cloudflare WARP with Wireguard Client on Ubuntu
 
 Cloudflare WARP က Ubuntu အတွက် official CLI tool ထုတ်ပေးထားတာရှိပါတယ်၊ ဒါပေမယ့် Wireguard Client နဲ့ သုံးရတာ ပိုအဆင်ပြေသလို ဂစ်တိုးဘာညာလုပ်ချင်ရင်လည်း လွယ်လို့ Wireguard Client နဲ့ အသုံးပြုပုံရေးပေးတာပါ။ 
