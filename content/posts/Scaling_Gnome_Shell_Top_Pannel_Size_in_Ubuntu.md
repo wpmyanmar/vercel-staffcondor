@@ -1,17 +1,18 @@
-Scaling Gnome Shell Top Pannel Size in Ubuntu
+---
+title: Scaling Gnome Shell Top Pannel Size in Ubuntu
+---
+# Scaling Gnome Shell Top Panel Size in Ubuntu
 
 Ubuntu 21.10 မှာ Default DE (Desktop Environment) အနေနဲ့ Gnome version 40 ကိုသုံးထားပါတယ်။ တခြား DE တွေ သုံးနေရာကနေ ရုတ်တရက် Gnome ကို ပြောင်းသုံးလိုက်တဲ့အခါ ကြုံရလေ့ရှိတဲ့ အဆင်မပြေမှုတွေထဲမှာ top panel လိုတာထက်ကြီးနေတာလည်းပါပါတယ်၊ ကျွန်တော်တော့ အရင်က Plasma (KDE) ပဲ သုံးနေကျဖြစ်တော့ top panel က အလွယ်တကူ scale လို့ရနေရာကနေ Gnome ကို ပြောင်းသုံးတော့ top panel က မျက်လုံးထဲ တော်တော်အပြားကြီးနေသလိုခံစားရလို့ tweak ဖို့ ရှာကြည့်တာ မတွေ့ခဲ့ပါဘူး၊ ဒါကြောင့် ကိုယ်တိုင်ပဲ shell theme တခုကို ပြင်သုံးလိုက်ရပါတယ်။
 
 ရှာဖွေရင်း တွေ့ခဲ့တာတွေအရ Gnome Shell Top Panel size ကို scale (ချိန်ညှိ) ချင်တယ်ဆိုရင် နည်းလမ်း(၂)မျိုးသုံးနိုင်ပါတယ်
 
-အလွယ်ဆုံးနည်းလမ်းကတော့ ကိုယ်နဲ့အဆင်ပြေမယ့် size နဲ့ ရေးထားတဲ့ gnome shell theme တခုခု ရှာသုံးလိုက်ရုံပဲ၊ Custom Theme တွေ ဘယ်လိုသုံးရမလဲဆိုတာ Ubuntu Appearence Customization မှာ ရေးပေးထားတာရှိပါတယ်။ ဒါ normal user တွေအတွက်ကတော့ ပြဿနာမရှိပါဘူး၊ နည်းနည်းဇီဇာကြောင်တတ်ရင်တော့ အဆင်မပြေဘူးပေါ့၊ ကိုယ်ကြိုက်တဲ့ theme မှာ top panel size က ကိုယ်လိုချင်တဲ့အနေအထားမဟုတ်ရင် ဒုတိယနည်းလမ်းဖြစ်တဲ့ ကိုယ်တိုင်ပြင်သုံးတဲ့နည်းလမ်းကို သုံးရပါတော့မယ်။
+အလွယ်ဆုံးနည်းလမ်းကတော့ ကိုယ်နဲ့အဆင်ပြေမယ့် size နဲ့ ရေးထားတဲ့ gnome shell theme တခုခု ရှာသုံးလိုက်ရုံပဲ၊ Custom Theme တွေ ဘယ်လိုသုံးရမလဲဆိုတာ Ubuntu Appearance Customization မှာ ရေးပေးထားတာရှိပါတယ်။ ဒါ normal user တွေအတွက်ကတော့ ပြဿနာမရှိပါဘူး၊ နည်းနည်းဇီဇာကြောင်တတ်ရင်တော့ အဆင်မပြေဘူးပေါ့၊ ကိုယ်ကြိုက်တဲ့ theme မှာ top panel size က ကိုယ်လိုချင်တဲ့အနေအထားမဟုတ်ရင် ဒုတိယနည်းလမ်းဖြစ်တဲ့ ကိုယ်တိုင်ပြင်သုံးတဲ့နည်းလမ်းကို သုံးရပါတော့မယ်။
 
 Gnome Shell Theme ကို ကိုယ်လိုချင်တဲ့နေရာလေး ကွက်ပြင်ရတာမျိုးက တော်တော်လွယ်ပါတယ်၊ CSS လေး ပြင်ရုံနဲ့ တော်တော်အလုပ်ဖြစ်တော့ ကိုယ်ပြင်ချင်တဲ့ shell theme CSS ကို ပြင်ပြီး save လိုက်ရုံပါပဲ။
 
-Gnome Shell Theme တွေက normally ~/.themes directory (folder) ထဲမှာ ရှိတတ်ပါတယ်၊ Theme တွေအများစုက Gnome အတွက်ဆိုရင် shell theme တမျိုးပဲ သီးသန့်ရေးတာမဟုတ်ဘဲ GTK theme နဲ့ shell theme တွဲပါလာလေ့ရှိပါတယ်၊ တခြား DE တွေမှာပါသုံးနိုင်အောင်လည်း ထည့်ရေးထားတတ်ကြပါတယ်၊ ကိုယ်သုံးတဲ့ gnome shell ကို ပြင်ဖို့ ~/.themes/ThemeName/ dir ထဲမှာရှာကြည့်နိုင်ပါတယ်၊ ဥပမာ ကျွန်တော်သုံးထားတဲ့ theme ဆိုရင် ~/>themes/ThemeName/gnome-shell/gnome-shell.css ဆိုပြီးရေးထားပါတယ်။ 
+Gnome Shell Theme တွေက normally `~/.themes` directory (folder) ထဲမှာ ရှိတတ်ပါတယ်၊ Theme တွေအများစုက Gnome အတွက်ဆိုရင် shell theme တမျိုးပဲ သီးသန့်ရေးတာမဟုတ်ဘဲ GTK theme နဲ့ shell theme တွဲပါလာလေ့ရှိပါတယ်၊ တခြား DE တွေမှာပါသုံးနိုင်အောင်လည်း ထည့်ရေးထားတတ်ကြပါတယ်၊ ကိုယ်သုံးတဲ့ gnome shell ကို ပြင်ဖို့ `~/.themes/ThemeName/` dir ထဲမှာရှာကြည့်နိုင်ပါတယ်၊ ဥပမာ ကျွန်တော်သုံးထားတဲ့ theme ဆိုရင် `~/>themes/ThemeName/gnome-shell/gnome-shell.css` ဆိုပြီးရေးထားပါတယ်။ 
 
-Panel heigth ကို ပြင်ဖို့အတွက်ဆိုရင် shell theme CSS file ထဲက #panel ဆိုတဲ့ selector ကိုရှာပြီး height ဆိုတဲ့ property ရဲ့ value ကို ပြင်လိုက်ရုံပါပဲ၊ ဥပမာ - 
+Panel height ကို ပြင်ဖို့အတွက်ဆိုရင် shell theme CSS file ထဲက `#panel` ဆိုတဲ့ selector ကိုရှာပြီး height ဆိုတဲ့ property ရဲ့ value ကို ပြင်လိုက်ရုံပါပဲ၊ ဥပမာ - 
 
 တခြား ကိုယ်ပြင်ချင်တာတွေလည်း လျှောက်ပြင်ချင်ပြင်လို့ရပါသေးတယ်၊ shell theme ရဲ့ CSS ကို tweak တဲ့အခါ မှားသွားမှာမစိုးရိမ်ပါနဲ့၊ မှားသွားလည်း ကွန်ပျူတာကြီးပျက်မသွားပါဘူး၊ မူလ code လေးတွေ တနေရာရာမှာ ကူးသိမ်းထားပြီး ရဲရဲသာ tweak ပါ၊ အဆင်မပြေရင်လည်း မူလ codeလေးတွေ ပြန် paste လိုက်ရုံပါပဲ၊ သိပ်အရေးကြီးတဲ့ကိစ္စမဟုတ်ပေမယ့် စမ်းလုပ်ကြည့်ရင်းနဲ့ ပျော်စရာကောင်းလာမှာပါ၊ Happy Tweaking!
-
-
